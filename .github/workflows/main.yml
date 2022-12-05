@@ -3,19 +3,19 @@ name: Main
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   deploy:
     runs-on: 'ubuntu-latest'
     environment: github-pages
     env:
-      VITE_HONEYBADGER_API_KEY: ${{ secrets.HONEYBADGER_API_KEY }}
-      VITE_POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
-      VITE_AUTH_TENANT_URL: ${{ secrets.AUTH_TENANT_URL }}
+      VITE_HONEYBADGER_API_KEY: 5a243a081e0d1b2cc860a1bd192d3eb972cbd2b20a236599c3f3dac4d8a79fd4
+      VITE_POSTHOG_API_KEY: phc_OvLeJMxcLVrD8JhVe0sYkgh20VvBeHQGHtiYG7Daprh
+      VITE_AUTH_TENANT_URL: https://zbn.webhook.store
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: 16
           cache: "yarn"
