@@ -1483,10 +1483,10 @@
     "@pluralsight/ps-design-system-theme" "^8.1.24"
     "@pluralsight/ps-design-system-util" "^10.1.3"
 
-"@pluralsight/ps-design-system-navuser@^5.0.16":
-  version "5.0.16"
-  resolved "https://registry.yarnpkg.com/@pluralsight/ps-design-system-navuser/-/ps-design-system-navuser-5.0.16.tgz#241a754c1857c07a87581988d1c97d8eae5b7151"
-  integrity sha512-8yOVyqu70ApnOWmIk5vhfLqh7X98ZObX4YA1jb/L7zdLocGS8g3d5QUXCh6K01A7HeUGm27BZXLr4+PZlCNxPA==
+"@pluralsight/ps-design-system-navuser@^5.0.17":
+  version "5.0.17"
+  resolved "https://registry.yarnpkg.com/@pluralsight/ps-design-system-navuser/-/ps-design-system-navuser-5.0.17.tgz#77e2aa7a8f725e5ed18083a05d800d82272503aa"
+  integrity sha512-5mfJCU/XjdY3B6iWIBQsWCJjX18oGLZw10Hq3GcnXV0aKbzbDNI/U3S4F6lKDZoatenbpiOpFuOQdIpTURwq+w==
   dependencies:
     "@pluralsight/ps-design-system-avatar" "^13.0.6"
     "@pluralsight/ps-design-system-core" "^10.0.4"
